@@ -7,12 +7,12 @@
     </view>
     <view class="uni-form-item uni-column">
       <input v-model="username"
-        :style='{"borderColor":"rgba(205, 197, 197, 1)","backgroundColor":"rgba(135, 128, 128, 0.34)","borderRadius":"40rpx","color":"#333","textAlign":"left","borderWidth":"4rpx","fontSize":"28rpx","borderStyle":"solid","height":"88rpx"}'
+        :style='{"borderColor":"rgba(74, 209, 242, 1)","backgroundColor":"rgba(255, 255, 255, 0.3)","borderRadius":"20rpx","color":"#333","textAlign":"left","borderWidth":"4rpx","fontSize":"28rpx","borderStyle":"solid","height":"88rpx"}'
         type="text" class="uni-input" name="" placeholder="请输入账号" />
     </view>
     <view class="uni-form-item uni-column">
       <input v-model="password"
-        :style='{"borderColor":"rgba(205, 197, 197, 1)","backgroundColor":"rgba(135, 128, 128, 0.34)","borderRadius":"40rpx","color":"#333","textAlign":"left","borderWidth":"4rpx","fontSize":"28rpx","borderStyle":"solid","height":"88rpx"}'
+        :style='{"borderColor":"rgba(74, 209, 242, 1)","backgroundColor":"rgba(255, 255, 255, 0.3)","borderRadius":"20rpx","color":"#333","textAlign":"left","borderWidth":"4rpx","fontSize":"28rpx","borderStyle":"solid","height":"88rpx"}'
         type="password" class="uni-input" name="" placeholder="请输入密码" />
     </view>
     <view class="uni-form-item uni-column">
@@ -43,7 +43,6 @@
 
 <script>
   import menu from '@/utils/menu'
-
   export default {
     data() {
       return {
