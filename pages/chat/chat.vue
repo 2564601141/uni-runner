@@ -8,17 +8,15 @@
 							<text>{{item.ask}}</text>
 						</view>
 					</view>
-					<view class="cu-avatar radius" style="background-image:url(https://ossweb-img.qq.com/images/lol/web201310/skin/big107000.jpg);"></view>
-					<!-- <view class="date">2018年3月23日 13:23</view> -->
+					<view class="cu-avatar radius" style="background-image:url('../../static/chat/ask.png');"></view>
 				</view>
 				<view v-if="item.reply" class="cu-item">
-					<view class="cu-avatar radius" style="background-image:url(https://ossweb-img.qq.com/images/lol/web201310/skin/big143004.jpg);"></view>
+					<view class="cu-avatar radius" style="background-image:url('../../static/chat/reply.png');"></view>
 					<view class="main">
 						<view class="content shadow">
 							<text>{{item.reply}}</text>
 						</view>
 					</view>
-					<!-- <view class="date "> 13:23</view> -->
 				</view>
 			</view>
 		</view>
